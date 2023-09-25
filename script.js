@@ -16,14 +16,11 @@ function mostrarNaTela(){
             </li>
         `
     })
-
     listaCompleta.innerHTML = novaLista
 }
-
 function cliqueiNoBotao(){
     arrayDeTarefas.push(input.value)
     mostrarNaTela()
     document.getElementById("input-principal").value = " "
 }
-
 botao.addEventListener("click", cliqueiNoBotao)
