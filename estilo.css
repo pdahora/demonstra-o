@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
 }
 
 body {
@@ -100,11 +100,6 @@ body {
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
 }
-
-.fa-rocket {
-    color:#4F0FC5;
-}
-
 .item-tarefa:hover .botao-delete{
     opacity: 1;
 }
